@@ -1,8 +1,10 @@
 const mongoose = require('mongoose');
 
 const NoteSchema = mongoose.Schema({
-    title: String,
-    content: String
+    name: String,
+    gender: String,
+    phone: Number,
+    email: String
 }, {
     timestamps: true
 });
